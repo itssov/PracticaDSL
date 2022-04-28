@@ -1,5 +1,5 @@
 job('Practica Frank Docker DSL') {
-    description('P]ractica de Francisco Valenzuela de Node JS Docker DSL en Jenkins')
+    description('Practica de Francisco Valenzuela de Node JS Docker DSL en Jenkins')
     scm {
         git('https://github.com/itssov/PracticaDSL.git', 'master') { node ->
             node / gitConfigName('itssov')
